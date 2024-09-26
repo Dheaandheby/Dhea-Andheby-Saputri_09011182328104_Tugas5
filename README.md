@@ -207,6 +207,36 @@ $ HISTSIZE=20
 
 $ h
 
+![Screenshot 2024-09-26 235410](https://github.com/user-attachments/assets/f461f0e5-fab4-4c17-8808-e695e324270f)
+
+b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir dilakukan
+
+$ !-5
+
+![Screenshot 2024-09-26 235600](https://github.com/user-attachments/assets/837c5943-e2a7-4bcf-b4e6-0cb0c1e4ca7c)
+
+c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer
+
+$ !!
+
+![Screenshot 2024-09-26 235723](https://github.com/user-attachments/assets/fdd9377c-592c-4621-b577-2bcca534f300)
+
+d. Ulangi instruksi pada history bufer nomor 150
+
+$ !150
+
+![Screenshot 2024-09-27 000045](https://github.com/user-attachments/assets/f9b7c2a6-f86a-40f9-9e2d-0358cc176ecc)
+
+e. Ulangi instruksi dengan prefix “ls”
+
+$ !ls
+
+![Screenshot 2024-09-27 000328](https://github.com/user-attachments/assets/0901b353-64db-4e8b-912e-411f6d89d719)
+
+
+
+
+
 
 
 
