@@ -97,6 +97,136 @@ Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum ekseku
 
 ![Screenshot 2024-09-26 225826](https://github.com/user-attachments/assets/b183a14a-e0b7-45e0-957f-e0883771d225)
 
+4. Bash script
+a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :
+
+p1.sh
+
+#! /bin/bash
+
+echo “Program p1”
+
+ls –l
+
+![Screenshot 2024-09-26 230726](https://github.com/user-attachments/assets/ddba5be5-1889-49a5-a87b-33012a23904d)
+
+![Screenshot 2024-09-26 230851](https://github.com/user-attachments/assets/1ca7578a-b22c-4aaf-bce2-8414d7682cc1)
+
+p2.sh
+
+#! /bin/bash
+
+echo “Program p2”
+
+who
+
+![Screenshot 2024-09-26 231417](https://github.com/user-attachments/assets/50cdf398-e666-4d09-87d4-414ed57cf1ee)
+
+![Screenshot 2024-09-26 231334](https://github.com/user-attachments/assets/282358ad-5e74-4aa5-bd25-5df1698781e1)
+
+p3.sh
+
+#! /bin/bash
+
+echo “Program p3”
+
+ps x
+
+![Screenshot 2024-09-26 231545](https://github.com/user-attachments/assets/50bf4ecc-41b9-4523-b788-b98c8eb123e4)
+
+![Screenshot 2024-09-26 231704](https://github.com/user-attachments/assets/3faaf78f-91c7-47c0-8fc7-e9567a5504da)
+
+b. Jalankan script tersebut sebagai berikut : $ ./p1.sh ; ./p3.sh ; ./p2.sh
+
+![Screenshot 2024-09-26 232112](https://github.com/user-attachments/assets/20bbe07a-609b-40d3-adc4-c5105e300511)
+
+![Screenshot 2024-09-26 232140](https://github.com/user-attachments/assets/bee660d7-2cc7-4784-94fd-d730d8916dfe)
+
+![Screenshot 2024-09-26 232233](https://github.com/user-attachments/assets/71806b0f-16aa-43a7-9d33-6099ffa3bc7a)
+
+$ ./p1.sh &
+
+![Screenshot 2024-09-26 232530](https://github.com/user-attachments/assets/ebca1a21-f1d6-4633-837b-028cef0840be)
+
+$ ./p1.sh $ ./p2.sh & ./p3.sh &
+
+![Screenshot 2024-09-26 232841](https://github.com/user-attachments/assets/7bf70357-a959-49b0-a824-e0e266b0b005)
+
+5. Jobs
+   
+a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.
+
+#!/bin/bash while [ true ]
+
+do
+
+date >> hasil
+
+sleep 10
+
+done
+
+![Screenshot 2024-09-26 233030](https://github.com/user-attachments/assets/a7691c8c-9939-424b-81d9-f0ac10954fc8)
+
+![Screenshot 2024-09-26 233322](https://github.com/user-attachments/assets/4b206bec-0d8b-4e64-8f5c-fce6d35ec373)
+
+b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background sebagai berikut :
+
+$ jobs
+
+$ find / -print > files 2>/dev/null &
+
+$ jobs
+
+![Screenshot 2024-09-26 234321](https://github.com/user-attachments/assets/f16ec762-4f21-4b45-b2cd-9663c2b9db0e)
+
+
+c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke background
+
+$ fg %1
+
+$ bg
+
+![Screenshot 2024-09-26 234755](https://github.com/user-attachments/assets/6a17e8b2-cd4d-4e77-80d3-758fedb06bd6)
+
+d. Stop program background dengan utilitas kil
+
+$ ps x
+
+$ kill [Nomor PID]
+
+![Screenshot 2024-09-26 235017](https://github.com/user-attachments/assets/47506090-4cb0-4934-82fd-42876342ec91)
+
+![Screenshot 2024-09-26 235049](https://github.com/user-attachments/assets/a6fe25b5-19fa-4e62-b717-9a2675257972)
+
+6. History
+   
+a. Ganti nilai HISTSIZE dari 1000 menjadi 20
+
+$ HISTSIZE=20
+
+$ h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
