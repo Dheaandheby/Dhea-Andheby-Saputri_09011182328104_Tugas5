@@ -68,6 +68,16 @@ c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebag
 
 $ exit
 
+![Screenshot 2024-09-26 221555](https://github.com/user-attachments/assets/ee07e63a-e059-4f5a-868f-e315f2d7d301)
+
+kemudian gunakan opsi – sebagai berikut :
+
+$ su – mahasiswa
+
+$ exit
+
+
+
 
 
 
