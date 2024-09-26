@@ -55,7 +55,6 @@ Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap file tersebut, 
 
 ![Screenshot 2024-09-26 212313](https://github.com/user-attachments/assets/672190a9-255a-4eeb-9e82-59e26e0663ab)
 
-![Screenshot 2024-09-26 213223](https://github.com/user-attachments/assets/14e3ae7f-b5dd-46d9-aeb4-cfeba7051c30)
 
 ![Screenshot 2024-09-26 213346](https://github.com/user-attachments/assets/2bedd1c4-275d-4c6b-a877-3a0fbbcf2faa)
 
