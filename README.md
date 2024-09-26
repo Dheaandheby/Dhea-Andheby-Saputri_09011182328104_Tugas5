@@ -83,11 +83,22 @@ Jelaskan perbedaan kedua utilitas tersebut.
 = Perbedaannya adalah jika menggunakan perintah su mahasiswa, hanya identitas pengguna yang berubah sementara lingkungan (environment) dari pengguna sebelumnya tetap dipertahankan. Sebaliknya, perintah su - mahasiswa melakukan login baru sepenuhnya, termasuk memuat ulang seluruh lingkungan pengguna baru dari awal.
 
 2. Prompt String (PS)
+   
 a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell PS1=‟> „ export PS1
 
 ![Screenshot 2024-09-26 222712](https://github.com/user-attachments/assets/3101e8f1-c8ae-4672-b0c1-ab282d8d59e9)
 
 ![Screenshot 2024-09-26 222944](https://github.com/user-attachments/assets/3297e70a-d19f-4c8c-b65a-daa83030c6d6)
+
+3. Logout
+Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout Echo “Terima kasih atas sesi yang diberikan” Sleep 5 clear
+
+![Screenshot 2024-09-26 224812](https://github.com/user-attachments/assets/9492df1c-728b-4cc5-bae3-bfdfab510923)
+
+![Screenshot 2024-09-26 225826](https://github.com/user-attachments/assets/b183a14a-e0b7-45e0-957f-e0883771d225)
+
+
+
 
 
 
