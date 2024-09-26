@@ -58,6 +58,20 @@ Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap file tersebut, 
 
 ![Screenshot 2024-09-26 213346](https://github.com/user-attachments/assets/2bedd1c4-275d-4c6b-a877-3a0fbbcf2faa)
 
+/home/mahasiswa/.bashrc
+
+![Screenshot 2024-09-26 220538](https://github.com/user-attachments/assets/f276e163-1d23-4d5d-bca3-18593506ee10)
+
+![Screenshot 2024-09-26 220931](https://github.com/user-attachments/assets/6096294d-a190-41f9-8484-98ec4e5dac24)
+
+c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: $ su mahasiswa
+
+$ exit
+
+
+
+
+
 
 
 
