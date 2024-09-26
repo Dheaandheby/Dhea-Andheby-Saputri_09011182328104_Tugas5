@@ -47,7 +47,7 @@ Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap file tersebut, 
 
 /home/. stD02001/.bash_login
 
-![Screenshot 2024-09-26 212632](https://github.com/user-attachments/assets/13ba1683-7679-4df4-a9e2-3a035c402132)
+![Screenshot 2024-09-26 215954](https://github.com/user-attachments/assets/38b951c3-7197-4d0a-b0ca-4eb22a288e3b)
 
 ![Screenshot 2024-09-26 212954](https://github.com/user-attachments/assets/3f5ff26b-9714-439c-ab36-5662eccacdd0)
 
